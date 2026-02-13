@@ -1,4 +1,17 @@
-## Hi there 👋
+# IoTcube
+
+We are an open-source organization focused on building reliable, reusable components for IoT systems.
+
+## Our Mission
+Our goal is to make it easier for developers and teams to build and operate IoT solutions by providing well-documented, maintainable open-source software.
+
+## How You Can Contribute
+- **Report issues**: Please include steps to reproduce, expected behavior, and relevant logs.
+- **Improve documentation**: Documentation updates are always appreciated.
+- **Submit pull requests**: Please keep changes small and focused, and include tests when applicable.
+
+## Support
+If you have questions, please start a discussion. We will do our best to respond in a timely manner.
 
 <!--
 

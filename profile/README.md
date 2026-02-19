@@ -1,25 +1,37 @@
-# IoTcube
+# AI Lifecycle Open Source (CSSA × CCS)
 
-We are an open-source organization focused on building reliable, reusable components for IoT systems.
+We aim to provide a stable, easy-to-run baseline and enable each participating lab to contribute tools in a consistent, reusable way.
 
-## Our Mission
-Our goal is to make it easier for developers and teams to build and operate IoT solutions by providing well-documented, maintainable open-source software.
+## What we are building
+- **Project-wide specifications** for standardized inputs/outputs (e.g., JSON-based contracts)
+- **Multiple tools** developed by different labs (language/stack may vary)
+- A **lightweight end-to-end demo** that can be executed with minimal setup
+- (Planned) A simple **AIBOM** mockup that can list a model’s components from a small Hugging Face model
 
-## How You Can Contribute
-- **Report issues**: Please include steps to reproduce, expected behavior, and relevant logs.
-- **Improve documentation**: Documentation updates are always appreciated.
-- **Submit pull requests**: Please keep changes small and focused, and include tests when applicable.
+## Repository structure (planned)
+- **ai-lifecycle-spec**  
+  Common contracts and specifications (JSON Schema/OpenAPI), plus example payloads
+- **ai-lifecycle-demo**  
+  End-to-end runnable demo (Docker-first)
+- **tool-* (multiple repos)**  
+  Lab-owned tool repositories (each follows the shared I/O spec)
 
-## Support
-If you have questions, please start a discussion. We will do our best to respond in a timely manner.
+## Getting started
+1. Please start with **ai-lifecycle-spec** to understand the I/O contracts and examples.
+2. Run **ai-lifecycle-demo** to try the end-to-end workflow with the fewest steps.
+3. Explore individual **tool-\*** repositories for implementation details.
 
-<!--
+## Contributing
+We welcome contributions from participating labs and external collaborators.  
+To keep collaboration efficient:
+- Please keep pull requests **small and focused**
+- Please include **tests** when applicable
+- Please ensure outputs remain **compatible with the spec**
+- For questions or design proposals, please open an issue or discussion first
 
-**Here are some ideas to get you started:**
+## Communication
+- For technical discussions and feedback, please use GitHub Issues/Discussions in the relevant repository.
+- For cross-lab coordination, please reach out to the designated contacts in the project notes.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## License
+Unless otherwise stated, repositories in this organization are released under the license specified in each repository.

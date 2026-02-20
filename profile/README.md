@@ -1,4 +1,4 @@
-# AI Lifecycle Open Source (CSSA × CCS)
+# AI Lifecycle Open Source 
 
 We aim to provide a stable, easy-to-run baseline and enable each participating lab to contribute tools in a consistent, reusable way.
 
